@@ -2,8 +2,7 @@
 
 def ziomus(decorated):
     def wrapper(*args, **kwargs):
-        print('ble')
-        return decorated()
+        return 'pfff'
     return wrapper
 
 @ziomus
